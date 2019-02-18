@@ -5,5 +5,25 @@
 
 .sectionLight {
     background: #eceeef;
-    padding: 2em;
+    padding: 2rem;
+}
+
+.sectionDark {
+    background: #cccccc;
+    padding: 2rem;
+}
+
+.sectionDark p {
+    text-align: justify;
+}
+
+.coolStuffWrapper {
+    margin-top: 20px;
+}
+
+.coolStuffBtn {
+    background: red;
+    color: white;
+    display: block;
+    margin: auto;
 }
