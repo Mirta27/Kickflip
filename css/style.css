@@ -35,3 +35,22 @@
 .modalFormWrapper {
     padding: 2rem;
 }
+
+.coolStuffModalPicture {
+    display: block;
+    margin: auto;
+}
+
+.imgCenter {
+    display: block;
+    margin: auto;
+}
+
+.btnCenter {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 79%;
+    /*width: 54%; This is the value used in the lesson, my screen is smaller than his.*/
+}
