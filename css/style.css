@@ -54,3 +54,10 @@
     width: 79%;
     /*width: 54%; This is the value used in the lesson, my screen is smaller than his.*/
 }
+
+.videoCaption {
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    padding: 0.2rem;
+}

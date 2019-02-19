@@ -120,7 +120,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="sectionLight">
                 <div class="row">
                     <div class="col-sm-12">
@@ -129,7 +129,7 @@
                                 <img class="img-fluid imgCenter" src="img/kickflip.jpeg">
                                 <div class="row">
                                     <div class="col-sm-12">
-                                        <button type="button" class="btn btn-lg btn-danger btnCenter">Kickflip</button>
+                                        <button type="button" class="btn btn-lg btn-danger btnCenter" data-toggle="modal" data-target=".kf-modal-lg">Kickflip</button>
                                     </div>
                                 </div>
                             </div>
@@ -137,7 +137,7 @@
                                 <img class="img-fluid imgCenter" src="img/360flip.jpeg">
                                 <div class="row">
                                     <div class="col-sm-12">
-                                        <button type="button" class="btn btn-lg btn-danger btnCenter">360 Flip</button>
+                                        <button type="button" class="btn btn-lg btn-danger btnCenter" data-toggle="modal" data-target=".threesixty-modal-md">360 Flip</button>
                                     </div>
                                 </div>
                             </div>
@@ -145,7 +145,7 @@
                                 <img class="img-fluid imgCenter" src="img/nosegrind.jpeg">
                                 <div class="row">
                                     <div class="col-sm-12">
-                                        <button type="button" class="btn btn-lg btn-danger btnCenter">Nosegrind</button>
+                                        <button type="button" class="btn btn-lg btn-danger btnCenter" data-toggle="modal" data-target=".nose-modal-sm">Nosegrind</button>
                                     </div>
                                 </div>
                             </div>
@@ -202,7 +202,45 @@
         </div>
 
 
+        <!-- Kickflip Modal -->
+        <div class="modal fade kf-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ilzy0viqVes" allowfullscreen></iframe>
+                    </div>
+                    <p class="videoCaption">Kickflips are easy. Pop, flick catch, land. #BOOM</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 360 Flip Modal -->
+        <div class="modal fade threesixty-modal-md" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ilzy0viqVes" allowfullscreen></iframe>
+                    </div>
+                    <p class="videoCaption">360 Flips are awesome! Pop, scissor kick, catch it, land it. #BOOM</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Nosegrind Modal -->
+        <div class="modal fade nose-modal-sm" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ilzy0viqVes" allowfullscreen></iframe>
+                    </div>
+                    <p class="videoCaption">Nosegrinds are sick! Nollie in, nollie out! #BOOM</p>
+                </div>
+            </div>
+        </div>
+
+
         <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        <script src="tether-1.3.3/src/js/utils.js">s</script>
         <script src="tether-1.3.3/src/js/tether.js"></script>
         <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
     </body>
